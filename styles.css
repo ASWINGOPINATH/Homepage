@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Open Sans',sans-serif;
+    background: #ab804c;
+    background-image: url("");
+}
+.footer{
+    margin-top: 150px;
+    width:100%;
+    padding: 10px 15%;
+   background:blue;
+   color: #efefef;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display:block;
+    text-decoration: none;
+    color:#efefef;
+    margin-bottom: 10px;
+}
+form input{
+    width: 400px;
+    height:45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border:none;
+}
+header{
+    height:100px;
+   background: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    align-content: flex-start;
+    font-size: xx-large;
+    display:flex;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color:#3a3a3a;
+    display: inline-block;
+}
+li a::after{
+    content:'';
+    display:block;
+    height:4px;
+    width:0;
+    background: #c4c4f7;
+    transition: all .5s;
+}
+li a:hover::after{
+    width: 100%;
+}
+.cta{
+    padding:15px 30px;
+    border-radius: 50px;
+    color: brown;
+    background-color: #c4c4f7;
+    outline:none;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+main{
+    display: flex;
+    height:calc(100vh-100px);
+    align-items: center;
+    justify-content: center;
+}
+.content-right{
+    max-width:670px;
+    height:auto;
+    width:1000px;
+ 
+}
+.content-left{
+    width: 30%;
+}
+main h1{
+    font-size: 54px;
+    color: #133b4f;
+    text-transform: uppercase;
+}
+main p{
+    font-size: 14px;
+    font-weight: 400;
+    color:#333;
+    line-height: 31.5px;
+    margin:30px 0;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color:#fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.asd{
+    align-items: center; 
+   float: left;
+}
+.asd img{
+    align-items: center;
+    float: left;
+    padding: 8px;
+    margin-left: 5%;
+
+}
+.asd h2{
+    text-align: center;
+    color: red;
+    
+}
